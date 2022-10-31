@@ -1,0 +1,24 @@
+{
+  "name": "imdbscrapper",
+  "version": "1.0.0",
+  "description": "Node JS bassed IMDB Scrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./scraper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahu1NK/IMDBScrapper.git"
+  },
+  "author": "Rahul NK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rahu1NK/IMDBScrapper/issues"
+  },
+  "homepage": "https://github.com/Rahu1NK/IMDBScrapper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "request-promise": "^4.2.6"
+  }
+}
