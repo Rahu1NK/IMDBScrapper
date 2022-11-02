@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./scraper.js"
+    "start": "nodemon --watch './**/*.ts' --exec 'ts-node' scraper.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,12 @@
   "homepage": "https://github.com/Rahu1NK/IMDBScrapper#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
-    "request-promise": "^4.2.6"
+    "optics-ts": "^2.3.0",
+    "request-promise": "^4.2.6",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
   }
 }
